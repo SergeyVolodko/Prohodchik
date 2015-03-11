@@ -1,0 +1,74 @@
+﻿body {
+    font-family: Arial Narrow;
+}
+
+.prohodchik-header {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    background-image: url(../images/bg-gradient.jpg);
+    background-repeat: no-repeat;
+}
+
+.prohodchik-logo {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.prohodchik-brand {
+    min-width: 190px;
+    width: 190px;
+    float: left;
+}
+
+.prohodchik-label {
+    font-weight: bold;
+    color: blue;
+}
+
+.header-block {
+    min-width: 186px;
+    width: 186px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 28px;
+    float: right;
+}
+
+.vertical-line {
+    margin-top: 28px;
+    height: 60px;
+    border-left: 1px solid lightgray;
+}
+
+.phone {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-nav {
+    min-width: 180px;
+    width: 180px;
+    height: 60px;
+    border-left: 1px solid lightgray;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.top-line {
+    border-top: 2px solid cornflowerblue;
+}
+
+.prohodchik-navbar {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.invisible-xs {
+    display: block !important;
+}
+@media (max-width: 560px) {
+    .invisible-xs {
+        display: none !important;
+    }
+}
