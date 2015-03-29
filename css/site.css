@@ -67,8 +67,49 @@
 .invisible-xs {
     display: block !important;
 }
-@media (max-width: 560px) {
+.visible-xs {
+    display: none !important;
+}
+
+.content-image {
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
+.content-label {
+    color: orange;
+}
+
+.content-text {
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    font-size: 18px; 
+}
+
+a.dropdown-toggle {
+    color: orange;
+    font-size: 20px;
+}
+
+@media (max-width: 610px) {
     .invisible-xs {
         display: none !important;
+    }
+    .visible-xs {
+        display: block !important;
+    }
+    .content-image {
+        width: 100%;
+    }
+    .btn-nav {
+        height: 50px;
+        padding-top: 5px;
+        width: 50%;
+        padding-bottom: 5px;
+        border: 1px solid lightsteelblue;
     }
 }

@@ -17,7 +17,7 @@
                 <img src="images/email-prohodchik-odessa.gif" />
                 <a class="" href="mailto:prohodchik2012@ukr.net">prohodchik2012@ukr.net</a>
             </span>
-            <span class="vertical-line pull-right"></span>
+            <span class="vertical-line pull-right invisible-xs"></span>
             <span class="header-block invisible-xs">
                 <span class="prohodchik-label">Наш офис</span><br />
                 65007, Одесса, ул.Генерала Ватутина, 14
@@ -32,13 +32,66 @@
             <a class="btn btn-nav">Определение причин подтопления</a>
         </div>
 
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="" data-toggle="tab">Катакомбы</a></li>
-            <li><a href="" data-toggle="tab">Подтопления</a></li>
+        <ul class="nav nav-pills invisible-xs" role="tablist">
+            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Ликвидация катакомб</a></li>
+            <li><a href="#tab2" data-toggle="tab" role="tab">Крепление катакомб</a></li>
+            <li><a href="#tab3" data-toggle="tab" role="tab">Ликвидация «мин»</a></li>
+            <li><a href="#tab4" data-toggle="tab" role="tab">Провалы</a></li>
         </ul>
-        
+
+        <div class="dropdown text-center visible-xs">
+            <a class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1">
+                Ликвидация катакомб
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a href="#tab1" data-toggle="tab" role="menuitem">Ликвидация катакомб</a></li>
+                <li role="presentation"><a href="#tab2" data-toggle="tab" role="menuitem">Крепление катакомб</a></li>
+                <li role="presentation"><a href="#tab3" data-toggle="tab" role="menuitem">Ликвидация «мин»</a></li>
+                <li role="presentation"><a href="#tab4" data-toggle="tab" role="menuitem">Провалы</a></li>
+            </ul>
+        </div>
+
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="tab1">
+                <img class="img-rounded content-image" src="/images/katakombi-odessa.jpg" />
+                <div class="content-text">
+                    <h3 class="content-label invisible-xs">Ликвидация катакомб</h3>
+                    Составляем проекты и выполняем работы по ликвидации подземных выработок в известняках понтического яруса (катакомб). После окончания работ выдаем Отчет, содержание которого соответствует требованиям действующих нормативных документов.
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab2">
+                <img class="img-rounded content-image" src="/images/kreplenie-katakomb-odessa.jpg" />
+
+                <div class="content-text">
+                    <h3 class="content-label invisible-xs">Крепление катакомб</h3>
+                    Составляем проекты и выполняем работы по креплению подземных выработок в известняках понтического яруса (катакомб). После окончания работ заказчик получает отчет, содержание которого соответствует требованиям действующих нормативных документов.
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab3">
+                <img class="img-rounded content-image" src="/images/likvidaciya-podzemnih-min-odessa.jpg" />
+
+                <div class="content-text">
+                    <h3 class="content-label invisible-xs">Ликвидация «мин»</h3>
+                    Составляем проекты и выполняем работы по креплению и ликвидации подземных выработок в лессовых грунтах («мин») и подвальных помещениях. После окончания работ заказчик получает отчет, содержание которого соответствует требованиям действующих нормативных документов.
+                </div>
+            </div>
+                
+            <div class="tab-pane fade" id="tab4">
+                <img class="img-rounded content-image" src="/images/provali-odessa.jpg" />
+
+                <div class="content-text">
+                    <h3 class="content-label invisible-xs">Провалы</h3>
+                    Выполняем комплекс работ с целью определения причин возникновения провалов на дневной поверхности. После окончания работ заказчик получает отчёт с рекомендациями по их устранению.
+                </div>
+            </div>
+        </div>
         
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+        <script src="scripts/controls.js"></script>
     </body>
 </html>
