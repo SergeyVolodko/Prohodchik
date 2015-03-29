@@ -27,8 +27,8 @@
 }
 
 .header-block {
-    min-width: 186px;
-    width: 186px;
+    min-width: 180px;
+    width: 180px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 28px;
@@ -44,6 +44,9 @@
 .phone {
     font-size: 16px;
     font-weight: bold;
+}
+.email {
+    font-size: 12px;
 }
 
 .btn-nav {
@@ -86,8 +89,13 @@
     font-size: 16px;
 }
 
+.content {
+    display: inline-block;
+}
+
 .dropdown-menu {
-    font-size: 18px; 
+    font-size: 18px;
+    margin-left: 30%;
 }
 
 a.dropdown-toggle {
@@ -111,5 +119,28 @@ a.dropdown-toggle {
         width: 50%;
         padding-bottom: 5px;
         border: 1px solid lightsteelblue;
+    }
+    .prohodchik-logo {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+    .prohodchik-brand {
+        min-width: 120px;
+        width: 120px;
+        float: left;
+    }
+    .header-block {
+        min-width: 130px;
+        width: 130px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 39px;
+        float: right;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn-nav {
+        width: 100%;
     }
 }
