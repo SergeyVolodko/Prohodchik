@@ -64,6 +64,7 @@
 
 .prohodchik-navbar {
     margin-top: 8px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -136,6 +137,9 @@ a.dropdown-toggle {
         padding-left: 0;
         padding-top: 39px;
         float: right;
+    }
+    .dropdown {
+        margin: 10px 0;
     }
 }
 
