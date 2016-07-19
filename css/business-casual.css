@@ -52,6 +52,10 @@ hr {
   width: 420px;
 }
 
+.big-tile{
+  height: 700px;
+}
+
 .brand,
 .address-bar {
     display: none;
