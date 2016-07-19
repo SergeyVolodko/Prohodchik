@@ -1,127 +1,213 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Катакобы в Одессе: поиск, крепление, ликвидация</title>
-        <meta name="description" content="ООО «Проходчик» выполняем поиск, креплпние и ликвидацию подземных выработок (катакомб) в городе Одесса">
-        <link href="bootstrap-3.3.2-dist/css/bootstrap.css" rel="stylesheet" />
-        <link href="css/site.css" rel="stylesheet" />
-    </head>
-    <body class="container">
-        
-        <header class="prohodchik-header">
-            <span class="prohodchik-brand">
-                <img class="prohodchik-logo" src="images/prohodchik-odessa.jpg" />
-                <span class="lead">ООО «Проходчик»</span>
-            </span>
-            
-            <span class="header-block">
-                +38<span class="phone">(067) 756 22 70</span><br />
-                <img src="images/email-prohodchik-odessa.gif" />
-                <a class="email" href="mailto:prohodchik2012@ukr.net">prohodchik2012@ukr.net</a>
-            </span>
-            <span class="vertical-line pull-right invisible-xs"></span>
-            <span class="header-block invisible-xs">
-                <span class="prohodchik-label">Наш офис</span><br />
-                65007, Одесса, ул.Генерала Ватутина, 14
-            </span>
-            <span class="vertical-line pull-right invisible-xs"></span>
-        </header>
-        
-        <div class="content">
-            <div class="navbar btn-group top-line prohodchik-navbar">
-                <a class="btn btn-nav btn-primary active">Подземные выработки</a>
-                <a class="btn btn-nav" href="iziskaniya.html">Инженерно-геологические изыскания</a>
-                <a class="btn btn-nav" href="treshinoobrazovanie.html">Определение причин трещенообразования</a>
-                <a class="btn btn-nav" href="podtopleniya.html">Определение причин подтопления</a>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>РљР°С‚Р°РєРѕР±С‹ РІ РћРґРµСЃСЃРµ: РїРѕРёСЃРє, РєСЂРµРїР»РµРЅРёРµ, Р»РёРєРІРёРґР°С†РёСЏ</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">РћРћРћ В«РџСЂРѕС…РѕРґС‡РёРєВ»</div>
+    <div class="address-bar"><span class="glyphicon glyphicon-earphone"></span>+38(067) 756 22 70</div>
+    <div class="address-bar"><span class="glyphicon glyphicon-home"></span> 65007, РћРґРµСЃСЃР°, СѓР».Р“РµРЅРµСЂР°Р»Р° Р’Р°С‚СѓС‚РёРЅР°, 14</div>
+    <div class="address-bar"><span class="glyphicon glyphicon-envelope"></span><a class="email" href="mailto:prohodchik2012@ukr.net">prohodchik2012@ukr.net</a></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">РћРћРћ В«РџСЂРѕС…РѕРґС‡РёРєВ»</a>
             </div>
-
-            <ul class="nav nav-pills invisible-xs" role="tablist">
-                <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Ликвидация катакомб</a></li>
-                <li><a href="#tab2" data-toggle="tab" role="tab">Крепление катакомб</a></li>
-                <li><a href="#tab3" data-toggle="tab" role="tab">Ликвидация «мин»</a></li>
-                <li><a href="#tab4" data-toggle="tab" role="tab">Провалы</a></li>
-            </ul>
-
-            <div class="dropdown text-center visible-xs">
-                <a class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1">
-                    Ликвидация катакомб
-                    <b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <li role="presentation" class="active"><a href="#tab1" data-toggle="tab" role="menuitem">Ликвидация катакомб</a></li>
-                    <li role="presentation"><a href="#tab2" data-toggle="tab" role="menuitem">Крепление катакомб</a></li>
-                    <li role="presentation"><a href="#tab3" data-toggle="tab" role="menuitem">Ликвидация «мин»</a></li>
-                    <li role="presentation"><a href="#tab4" data-toggle="tab" role="menuitem">Провалы</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="prohodchik-nav-tab selected-tab">
+                        <a href="index.html">РџРѕРґР·РµРјРЅС‹Рµ РІС‹СЂР°Р±РѕС‚РєРё</a>
+                    </li>
+                    <li class="prohodchik-nav-tab">
+                        <a href="iziskaniya.html">РРЅР¶РµРЅРµСЂРЅРѕ-РіРµРѕР»РѕРіРёС‡РµСЃРєРёРµ РёР·С‹СЃРєР°РЅРёСЏ</a>
+                    </li>
+                    <li class="prohodchik-nav-tab">
+                        <a href="treschinoobrazovanie.html">РћРїСЂРµРґРµР»РµРЅРёРµ РїСЂРёС‡РёРЅ С‚СЂРµС‰РµРЅРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ</a>
+                    </li>
+                    <li class="prohodchik-nav-tab">
+                        <a href="podtopleniya.html">РћРїСЂРµРґРµР»РµРЅРёРµ РїСЂРёС‡РёРЅ РїРѕРґС‚РѕРїР»РµРЅРёСЏ</a>
+                    </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-            <div class="tab-content">
-                <div class="tab-pane fade active in" id="tab1">
-                    <img class="img-rounded content-image" src="/images/katakombi-odessa.jpg" />
-                    <div class="content-text">
-                        <h3 class="content-label invisible-xs">Ликвидация катакомб</h3>
-                        Составляем проекты и выполняем работы по ликвидации подземных выработок в известняках понтического яруса (катакомб). После окончания работ выдаем Отчет, содержание которого соответствует требованиям действующих нормативных документов.
-                    </div>
-                </div>
+    <div class="container">
 
-                <div class="tab-pane fade" id="tab2">
-                    <img class="img-rounded content-image" src="/images/kreplenie-katakomb-odessa.jpg" />
-
-                    <div class="content-text">
-                        <h3 class="content-label invisible-xs">Крепление катакомб</h3>
-                        Составляем проекты и выполняем работы по креплению подземных выработок в известняках понтического яруса (катакомб). После окончания работ заказчик получает отчет, содержание которого соответствует требованиям действующих нормативных документов.
-                    </div>
-                </div>
-
-                <div class="tab-pane fade" id="tab3">
-                    <img class="img-rounded content-image" src="/images/likvidaciya-podzemnih-min-odessa.jpg" />
-
-                    <div class="content-text">
-                        <h3 class="content-label invisible-xs">Ликвидация «мин»</h3>
-                        Составляем проекты и выполняем работы по креплению и ликвидации подземных выработок в лессовых грунтах («мин») и подвальных помещениях. После окончания работ заказчик получает отчет, содержание которого соответствует требованиям действующих нормативных документов.
-                    </div>
-                </div>
-
-                <div class="tab-pane fade" id="tab4">
-                    <img class="img-rounded content-image" src="/images/provali-odessa.jpg" />
-
-                    <div class="content-text">
-                        <h3 class="content-label invisible-xs">Провалы</h3>
-                        Выполняем комплекс работ с целью определения причин возникновения провалов на дневной поверхности. После окончания работ заказчик получает отчёт с рекомендациями по их устранению.
-                    </div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">
+                        <strong>Р›РёРєРІРёРґР°С†РёСЏ РєР°С‚Р°РєРѕРјР±</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left"
+                      src="img/katakombi-odessa.jpg"
+                      alt="Р›РёРєРІРёРґР°С†РёСЏ РїРѕРґР·РµРјРЅС‹С… РІС‹СЂР°Р±РѕС‚РѕРє">
+                    <hr class="visible-xs">
+                    <p>РЎРѕСЃС‚Р°РІР»СЏРµРј РїСЂРѕРµРєС‚С‹ Рё&nbsp;РІС‹РїРѕР»РЅСЏРµРј СЂР°Р±РѕС‚С‹ РїРѕ&nbsp;Р»РёРєРІРёРґР°С†РёРё РїРѕРґР·РµРјРЅС‹С…
+                        РІС‹СЂР°Р±РѕС‚РѕРє РІ&nbsp;РёР·РІРµСЃС‚РЅСЏРєР°С… РїРѕРЅС‚РёС‡РµСЃРєРѕРіРѕ СЏСЂСѓСЃР° (РєР°С‚Р°РєРѕРјР±). РџРѕСЃР»Рµ РѕРєРѕРЅС‡Р°РЅРёСЏ
+                        СЂР°Р±РѕС‚ РІС‹РґР°РµРј РѕС‚С‡РµС‚, СЃРѕРґРµСЂР¶Р°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ С‚СЂРµР±РѕРІР°РЅРёСЏРј
+                        РґРµР№СЃС‚РІСѓСЋС‰РёС… РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
+                    </p>
                 </div>
             </div>
         </div>
-        
-        <br/>
-        <br class="clear"/>
-        
-        <div class="bottom">
-            <span class="col-sm-4">
-                <h4>Директор</h4>
-                <h4>Гроза Виталий Владимирович</h4>
-                <p>Моб. телефон: +38 067 756 22 70</p>
-                <p>E-mail: <a href="mailto:vitold30@mail.ru">vitold30@mail.ru</a></p>
-            </span>
-            <span class="col-sm-4">
-                <h4>Инженер-гидрогеолог</h4>
-                <h4>Володько Клавдия Николаевна</h4>
-                <p>Моб. телефон: +38 067 487 50 01</p>
-                <p>E-mail: <a href="mailto:knvolodko@gmail.com">knvolodko@gmail.com</a></p>
-                <p>Skype: knvolodko</p>
-            </span>
-            <span class="col-sm-4">
-                <h4>Инженер-геолог</h4>
-                <h4>Старенко Александр Владимирович</h4>
-                <p>Моб. телефон: +38 067 450 90 60</p>
-                <p>E-mail: <a href="mailto:starenko73@yandex.ru">starenko73@yandex.ru</a></p>
-            </span>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">
+                        <strong>РљСЂРµРїР»РµРЅРёРµ РєР°С‚Р°РєРѕРјР±</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left"
+                      src="img/kreplenie-katakomb-odessa.jpg"
+                      alt="РљСЂРµРїР»РµРЅРёРµ РїРѕРґР·РµРјРЅС‹С… РІС‹СЂР°Р±РѕС‚РѕРє">
+                    <hr class="visible-xs">
+                    <p>РЎРѕСЃС‚Р°РІР»СЏРµРј РїСЂРѕРµРєС‚С‹ Рё&nbsp;РІС‹РїРѕР»РЅСЏРµРј СЂР°Р±РѕС‚С‹ РїРѕ&nbsp;РєСЂРµРїР»РµРЅРёСЋ РїРѕРґР·РµРјРЅС‹С…
+                        РІС‹СЂР°Р±РѕС‚РѕРє РІ&nbsp;РёР·РІРµСЃС‚РЅСЏРєР°С… РїРѕРЅС‚РёС‡РµСЃРєРѕРіРѕ СЏСЂСѓСЃР° (РєР°С‚Р°РєРѕРјР±). РџРѕСЃР»Рµ
+                        РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°Р±РѕС‚ Р·Р°РєР°Р·С‡РёРє РїРѕР»СѓС‡Р°РµС‚ РѕС‚С‡РµС‚, СЃРѕРґРµСЂР¶Р°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ
+                        СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ С‚СЂРµР±РѕРІР°РЅРёСЏРј РґРµР№СЃС‚РІСѓСЋС‰РёС… РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="bootstrap-3.3.2-dist/js/bootstrap.js"></script>
-        <script src="scripts/controls.js"></script>
-    </body>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">
+                        <strong>Р›РёРєРІРёРґР°С†РёСЏ В«РјРёРЅВ»</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left"
+                      src="img/likvidaciya-podzemnih-min-odessa.jpg"
+                      alt="РљСЂРµРїР»РµРЅРёРµ РїРѕРґР·РµРјРЅС‹С… РІС‹СЂР°Р±РѕС‚РѕРє">
+                    <hr class="visible-xs">
+                    <p>РЎРѕСЃС‚Р°РІР»СЏРµРј РїСЂРѕРµРєС‚С‹ Рё&nbsp;РІС‹РїРѕР»РЅСЏРµРј СЂР°Р±РѕС‚С‹ РїРѕ&nbsp;РєСЂРµРїР»РµРЅРёСЋ Рё&nbsp;Р»РёРєРІРёРґР°С†РёРё
+                        РїРѕРґР·РµРјРЅС‹С… РІС‹СЂР°Р±РѕС‚РѕРє РІ&nbsp;Р»РµСЃСЃРѕРІС‹С… РіСЂСѓРЅС‚Р°С… (&laquo;РјРёРЅ&raquo;) Рё&nbsp;РїРѕРґРІР°Р»СЊРЅС‹С…
+                        РїРѕРјРµС‰РµРЅРёСЏС…. РџРѕСЃР»Рµ РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°Р±РѕС‚ Р·Р°РєР°Р·С‡РёРє РїРѕР»СѓС‡Р°РµС‚ РѕС‚С‡РµС‚,
+                        СЃРѕРґРµСЂР¶Р°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ С‚СЂРµР±РѕРІР°РЅРёСЏРј РґРµР№СЃС‚РІСѓСЋС‰РёС…
+                        РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">
+                        <strong>РџСЂРѕРІР°Р»С‹</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left"
+                      src="img/provali-odessa.jpg"
+                      alt="РџСЂРѕРІР°Р»С‹">
+                    <hr class="visible-xs">
+                    <p>Р’С‹РїРѕР»РЅСЏРµРј РєРѕРјРїР»РµРєСЃ СЂР°Р±РѕС‚ СЃ&nbsp;С†РµР»СЊСЋ РѕРїСЂРµРґРµР»РµРЅРёСЏ РїСЂРёС‡РёРЅ РІРѕР·РЅРёРєРЅРѕРІРµРЅРёСЏ
+                       РїСЂРѕРІР°Р»РѕРІ РЅР°&nbsp;РґРЅРµРІРЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё. РџРѕСЃР»Рµ РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°Р±РѕС‚ Р·Р°РєР°Р·С‡РёРє
+                       РїРѕР»СѓС‡Р°РµС‚ РѕС‚С‡С‘С‚ СЃ&nbsp;СЂРµРєРѕРјРµРЅРґР°С†РёСЏРјРё РїРѕ&nbsp;РёС…&nbsp;СѓСЃС‚СЂР°РЅРµРЅРёСЋ.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="intro-text text-center">
+                    <strong>РљРѕРЅС‚Р°РєС‚С‹</strong>
+                </h3>
+                <hr>
+            </div>
+            <div class="col-sm-4 text-center">
+                <!--<img class="img-responsive" src="http://placehold.it/750x450" alt="">-->
+                <h4>Р”РёСЂРµРєС‚РѕСЂ</h4>
+                <h4><small>Р“СЂРѕР·Р° Р’РёС‚Р°Р»РёР№ Р’Р»Р°РґРёРјРёСЂРѕРІРёС‡</small></h4>
+                <p><span class="glyphicon glyphicon-earphone"></span>+38 067 756 22 70</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>   <a href="mailto:vitold30@mail.ru">vitold30@mail.ru</a></p>
+            </div>
+            <div class="col-sm-4 text-center">
+              <!--<img class="img-responsive" src="http://placehold.it/750x450" alt="">-->
+              <h4>РРЅР¶РµРЅРµСЂ-РіРёРґСЂРѕРіРµРѕР»РѕРі</h4>
+              <h4><small>Р’РѕР»РѕРґСЊРєРѕ РљР»Р°РІРґРёСЏ РќРёРєРѕР»Р°РµРІРЅР°</small></h4>
+              <p><span class="glyphicon glyphicon-earphone"></span>+38 067 487 50 01</p>
+              <p><span class="glyphicon glyphicon-envelope"></span>   <a href="mailto:knvolodko@gmail.com">knvolodko@gmail.com</a></p>
+            </div>
+            <div class="col-sm-4 text-center">
+              <h4>РРЅР¶РµРЅРµСЂ-РіРµРѕР»РѕРі</h4>
+              <h4><small>РЎС‚Р°СЂРµРЅРєРѕ РђР»РµРєСЃР°РЅРґСЂ Р’Р»Р°РґРёРјРёСЂРѕРІРёС‡</small></h4>
+              <p><span class="glyphicon glyphicon-earphone"></span>+38 067 450 90 60</p>
+              <p><span class="glyphicon glyphicon-envelope"></span>   <a href="mailto:starenko73@yandex.ru">starenko73@yandex.ru</a></p>
+            </div>
+        </div>
+      </div>
+      <br><br><br>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
 </html>
